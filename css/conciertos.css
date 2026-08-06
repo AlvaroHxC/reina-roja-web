@@ -1,0 +1,50 @@
+
+.conciertos__container__item h2 {
+    font-size: var(--txtPrincipal);
+    color: var(--colorBlanco);
+    font-family: var(--fuentePrincipal);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.conciertos__container__item p {
+    font-size: var(--txtPequeño);
+    color: var(--colorBlanco);
+    font-family: var(--fuentePrincipal);
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.texto__conciertos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--txtNormal);
+}
+
+.fechas__tabla {
+
+    width: 100%;
+    max-width: 55rem;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    background-color: var(--colorOscuro);
+    color: var(--colorBlanco);
+    font-family: var(--fuentePrincipal);
+    text-align: center;
+
+}
+
+.fechas__tabla th,
+.fechas__tabla td {
+    padding: 1.2rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: var(--txtNormal);
+}
+
+.fechas__tabla th {
+    background-color: rgb(139 0 0 / 40%);
+
+}

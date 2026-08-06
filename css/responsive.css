@@ -1,0 +1,196 @@
+/* ==========================================
+   TABLETS (hasta 992px)
+========================================== */
+
+@media (max-width: 992px) {
+
+    /* Menú */
+    .header__menu {
+        flex-wrap: wrap;
+        gap: 2rem;
+        font-size: 3rem;
+        padding: 1.5rem;
+    }
+
+    /* Logos */
+
+    .header__logos,
+    .our__music__logos {
+        position: absolute;
+        top: 15px;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .our__music__logos {
+        left: 15px;
+    }
+
+    .header__logos {
+        right: 15px;
+    }
+
+    .header__logos img,
+    .our__music__logos img {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Página Inicio */
+    .main__contenido {
+        flex-direction: column;
+        padding: 3rem;
+    }
+
+    .video__main,
+    .noticias__tabla {
+        width: 100%;
+    }
+
+    /* Tablas */
+    .fechas__tabla {
+        width: 100%;
+        max-width: 55rem;
+        margin: 2rem auto;
+    }
+
+    /* Footer */
+    .footer__text {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+}
+
+
+/* ==========================================
+   MÓVILES (hasta 768px)
+========================================== */
+
+@media (max-width:768px) {
+
+    html {
+        font-size: 56.25%;
+    }
+
+    /* Banner */
+
+    .header__banner img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Menú */
+
+    .header__menu {
+        flex-direction: column;
+        gap: 1.5rem;
+        font-size: 2.8rem;
+        padding: 2rem;
+    }
+
+    /* Logos */
+
+    .header__logos,
+    .our__music__logos {
+        position: absolute;
+        top: 10px;
+        display: flex;
+        gap: .8rem;
+    }
+
+    .our__music__logos {
+        left: 10px;
+    }
+
+    .header__logos {
+        right: 10px;
+    }
+
+    .header__logos img,
+    .our__music__logos img {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* Inicio */
+
+    .main__contenido {
+        flex-direction: column;
+        padding: 2rem;
+        gap: 3rem;
+    }
+
+    .video__main video {
+        width: 100%;
+        height: auto;
+    }
+
+    .noticias__tabla,
+    .fechas__tabla {
+        width: 100%;
+    }
+
+    /* Biografía */
+
+    .biografia__main {
+        padding: 0 2rem;
+        text-indent: 1.5rem;
+    }
+
+    .biografia__title {
+        font-size: 4rem;
+    }
+
+    /* Conciertos */
+
+    .conciertos__container__item h2 {
+        font-size: 4rem;
+    }
+
+    .texto__conciertos {
+        padding: 0 2rem;
+        text-align: center;
+    }
+
+    /* Contacto */
+
+    .contacto__titulo {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .contacto__subtitulo {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .contacto__texto {
+        font-size: 2rem;
+        text-align: center;
+        padding: 0 2rem;
+    }
+
+    .contacto__redes {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    /* Footer */
+
+    .footer__text {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    /* Imágenes */
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}

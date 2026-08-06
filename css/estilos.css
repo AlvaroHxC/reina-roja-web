@@ -1,0 +1,160 @@
+:root {
+    --colorPrimario: #C20004;
+    --colorSecundario: #640203;
+    --colorGris: #272727;
+    --colorOscuro: #000000;
+    --colorBlanco: #FFF;
+    --colorRojo: #8B0000;
+
+    --txtPrincipal: 2rem;
+    --txtSecundario: 1.8rem;
+    --txtNormal: 1.5rem;
+
+    --fuentePrincipal: "Almendra", sans-serif;
+    --fuenteSecundaria: "Montserrat", sans-serif;
+}
+
+/* GENERALES */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    background-color: var(--colorGris);
+    background-image: url("../IMG/CenefaFondo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    font-family: var(--fuenteSecundaria);
+}
+
+h1 {
+    font-family: var(--fuentePrincipal);
+    font-size: var(--txtPrincipal);
+}
+
+h3 {
+    font-size: var(--txtSecundario);
+}
+
+p {
+    font-size: var(--txtNormal);
+}
+
+
+/* HEADER */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+
+}
+
+.header__banner {
+    position: relative;
+    width: 100%;
+}
+
+.header__banner img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.our__music__logos {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.our__music__logos img {
+    max-width: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.header__logos {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    display: flex;
+    gap: 15px;
+
+}
+
+.header__logos img {
+    width: 35px;
+    height: 35px;
+
+}
+
+.header__logos img:hover {
+    transform: scale(1.15);
+}
+
+
+.header__menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1.5rem 3rem;
+    align-items: center;
+    padding: 1.5rem 0;
+    font-family: var(--fuentePrincipal);
+    font-size: 4rem;
+    background-color: rgb(139 0 0 / 40%);
+}
+
+.header__menu a {
+    color: var(--colorBlanco);
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.header__menu a:hover {
+    color: var(--colorPrimario);
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(139 0 0 / 40%);
+
+}
+
+.footer__text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+.footer__text p {
+    margin: 0;
+    font-family: var(--fuentePrincipal);
+    font-size: 2rem;
+    color: var(--colorBlanco);
+}
+
+.footer__text a {
+    color: var(--colorBlanco);
+    text-decoration: none;
+}
+
+.footer__text a:hover {
+    color: var(--colorPrimario);
+
+}

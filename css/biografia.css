@@ -1,0 +1,38 @@
+ .biografia__banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+ }
+ .biografia__banner img{
+    border-radius: 50%;
+    border-style: solid;
+    border-color: var(--colorRojo);
+    height: 250px;
+    width: 250px;
+ }
+ .biografia__title{
+    font-size: var(--txtSecundario);
+    color: var(--colorBlanco);
+    font-family: var(--fuentePrincipal);
+    text-align: center;
+}
+.biografia__main{
+    font-size: 1.5rem;
+    color: var(--colorBlanco);
+    font-family: var(--fuenteSecundaria);
+    background-color: rgba(0, 0, 0, 0.7);
+
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 3rem;
+    text-align: justify;   /* Justifica el texto */
+    line-height: 1.5;      /* Espaciado entre líneas */
+    letter-spacing: .05rem;/* Espacio entre letras */
+    text-indent: 3rem;     /* Sangría en la primera línea */
+}
+.biografia__main p{
+    padding: 0.5rem;
+
+}
