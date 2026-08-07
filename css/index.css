@@ -1,93 +1,94 @@
-
-    .main__contenido{
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        gap: 5rem;
-        padding: 4rem 5rem;
-    }
-
-    /* VÍDEO */
-
-    .video__main{
-        flex: 1;
-    }
-
-    .video__main video{
-        display: block;
-        width: 100%;
-        border-radius: 1rem;
-    }
-
-    /* NOTICIAS */
-
-    .noticias__tabla{
-        flex: 1;
-        border-collapse: collapse;
-        background-color: var(--colorOscuro);
-        color: var(--colorBlanco);
-        
-    }
-
-  .noticias__tabla th,
-.noticias__tabla td{
-    padding: 1.2rem;
-    text-align: left;
-    border-bottom: 1px solid rgba(255,255,255,.2);
+.main__contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5rem;
+    padding: 4rem 5rem;
 }
 
-.noticias__tabla th{
+/* VÍDEO */
+
+.video__main {
+    flex: 1;
+}
+
+.video__main video {
+    display: block;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+/* NOTICIAS */
+
+.noticias__tabla {
+    flex: 1;
+    border-collapse: collapse;
+    background-color: var(--colorOscuro);
+    color: var(--colorBlanco);
+
+}
+
+.noticias__tabla th,
+.noticias__tabla td {
+    padding: 1.2rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+.noticias__tabla th {
     background-color: rgb(139 0 0 / 40%);
     font-family: var(--fuentePrincipal);
     font-size: 2.5rem;
 }
 
-.noticias__tabla td{
+.noticias__tabla td {
     font-family: var(--fuenteSecundaria);
     font-size: 1.8rem;
 }
 
-    .noticias__tabla a{
-        color: var(--colorBlanco);
-        text-decoration: none;
-        transition: color .3s;
-    }
+.noticias__tabla a {
+    color: var(--colorBlanco);
+    text-decoration: none;
+    transition: color .3s;
+}
 
-    .noticias__tabla a:hover{
-        color: var(--colorPrimario);
-    }
+.noticias__tabla a:hover {
+    color: var(--colorPrimario);
+}
 
-    /*FECHAS*/
+/*FECHAS*/
 
-    .fechas__tabla {
-        width:100%;
-        max-width:55rem;
-        margin-top: 2rem;
-        margin-left: 5rem;
-        margin-right: auto;
-        margin-bottom: 2rem;
-        border-collapse: collapse;
-        background-color: var(--colorOscuro);
-        color: var(--colorBlanco);
-        font-family: var(--fuentePrincipal);
-        text-align: center;
+.fechas__tabla {
+    width: 100%;
+    max-width: 55rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    border-collapse: collapse;
+    background-color: var(--colorOscuro);
+    color: var(--colorBlanco);
+    font-family: var(--fuentePrincipal);
+    text-align: center;
 
-    }
+}
 
-    .fechas__tabla th{ padding: 1.2rem;
-        text-align: center;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-        font-size: var(--txtNormal);
-        font-family: var(--fuentePrincipal);
-    }
-    .fechas__tabla td {
-        padding: 1.2rem;
-        text-align: center;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-        font-size: var(--txtNormal);
-        font-family: var(--fuenteSecundaria);
-    }
+.fechas__tabla th {
+    padding: 1.2rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: var(--txtNormal);
+    font-family: var(--fuentePrincipal);
+}
 
-    .fechas__tabla th {
-        background-color: rgb(139 0 0 / 40%);
-    }
+.fechas__tabla td {
+    padding: 1.2rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: var(--txtNormal);
+    font-family: var(--fuenteSecundaria);
+}
+
+.fechas__tabla th {
+    background-color: rgb(139 0 0 / 40%);
+}

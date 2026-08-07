@@ -41,14 +41,17 @@ body {
 h1 {
     font-family: var(--fuentePrincipal);
     font-size: var(--txtPrincipal);
+    color: var(--colorBlanco);
 }
 
 h3 {
     font-size: var(--txtSecundario);
+    color: var(--colorBlanco);
 }
 
 p {
     font-size: var(--txtNormal);
+    color: var(--colorBlanco);
 }
 
 
